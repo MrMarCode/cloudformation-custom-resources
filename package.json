@@ -23,10 +23,7 @@
     "SimpleEmailService",
     "SES",
     "Domain Verification",
-    "RuleSet activation",
-    "APIGateway",
-    "regional domain name",
-    "application load balancer lambda"
+    "RuleSet activation"
   ],
   "author": "Jeremy Thomerson",
   "license": "MIT",

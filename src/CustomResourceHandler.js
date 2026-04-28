@@ -7,8 +7,6 @@ var _ = require('underscore'),
     resources;
 
 resources = {
-   KMSKeyGrant: require('./KMSKeyGrant'), // eslint-disable-line global-require
-   SNSSQSSubscription: require('./SNSSQSSubscription'), // eslint-disable-line global-require
    // This resource will be named "SimpleDynamoDBGlobalTable" only in 1.0.0-rc3 for the
    // transition from the old DynamoDBGlobalTable resource to the newer, simpler one. See
    // the code below that helps with this transition. In 1.0.0-rc4 and subsequent
@@ -21,15 +19,6 @@ resources = {
    DynamoDBGlobalTable: require('./DynamoDBGlobalTable'), // eslint-disable-line global-require
    SimpleEmailServiceDomainVerification: require('./SimpleEmailServiceDomainVerification'), // eslint-disable-line global-require
    SimpleEmailServiceRuleSetActivation: require('./SimpleEmailServiceRuleSetActivation'), // eslint-disable-line global-require
-   APIGatewayDomainName: require('./APIGatewayDomainName'), // eslint-disable-line global-require
-   ELBTargetGroup: require('./ELBTargetGroup'), // eslint-disable-line global-require
-   ELBTargetGroupLambdaTarget: require('./ELBTargetGroupLambdaTarget'), // eslint-disable-line global-require
-   ElasticSearchClusterSettings: require('./ElasticSearchClusterSettings'), // eslint-disable-line global-require
-   ElasticSearchIndex: require('./ElasticSearchIndex'), // eslint-disable-line global-require
-   ElasticSearchIndexAlias: require('./ElasticSearchIndexAlias'), // eslint-disable-line global-require
-   ElasticSearchPackage: require('./ElasticSearchPackage'), // eslint-disable-line global-require
-   OpenSearchRole: require('./OpenSearchRole'), // eslint-disable-line global-require
-   OpenSearchRoleMapping: require('./OpenSearchRoleMapping'), // eslint-disable-line global-require
 };
 
 module.exports = {
